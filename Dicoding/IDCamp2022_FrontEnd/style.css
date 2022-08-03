@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+}
+
+/*HEADER*/
+
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.BackgroundHeader {
+    
+    background-image: url(Aset/SillhoutePH.jpg);
+    margin: auto;
+    max-width: 1550px;
+    min-width: 400px;
+    height: 748px;
+    background-size: 100% 150%;
+    background-attachment: scroll;
+}
+
+.StripHeader {
+
+    Background-color: #1B262C;
+    position: relative;
+    bottom: 750px;
+    max-width: 1550px;
+    height: 750px;
+    opacity: 0.95;
+
+}
+
+.HeaderPhoto {
+    
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size: 100% 100%;
+    bottom: 1400px;
+    left: 45%;
+}
+
+.TextHeader {
+
+    position: relative;
+    color: #BBE1FA;
+    bottom: 1500px;
+    left: 41.3%;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#Navigasi {
+
+    position: relative;
+    bottom: 1320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    word-spacing: 50px;
+    border: 1px solid  #BBE1FA;
+    padding-right: 35px;
+    border-radius: 50px;
+   
+}
+
+li {
+    display: inline;
+    margin-left: 5px;
+    font-weight: lighter;
+    color: #BBE1FA;
+}
+
+/*ABOUT ME*/
+
+.BackgroundAboutMe {
+
+    background-image: url(Aset/FotoSMA.jpg);
+    position: relative;
+    bottom: 1255px;
+    height: 746px;
+    background-size: 120% 150%;
+    background-position-y: -200px;
+    background-position-x: -200px;
+    opacity: 0.9;
+    max-width: 1550px;
+    min-width: 500px;
+    background-attachment: scroll;
+    margin: auto;
+}
+
+.StripAboutMe {
+
+    Background-color: #1B262C;
+    position: relative;
+    bottom: 2005px;
+    height: 750px;
+    opacity: 0.7;
+    margin: auto;
+
+}
+
+.AboutMeContainer {
+
+    background-color: #0F4C75;
+    max-width: 300px;
+    height: 250px;
+    bottom: 2900px;
+    right: -370px;
+    position: relative;
+    padding: 35px;
+    box-shadow:  0 4px 8px 0  black;
+
+
+}
+
+.AboutMeText {
+
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    color: #BBE1FA;
+
+}
+
+.MyDesc {
+    color: #C4CFD5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    text-align: left;
+    padding-left: 21px;
+}
+
+#Button {
+
+    background-color:  #BBE1FA;
+    position: relative;
+    display: inline;
+    padding: 15px;
+    margin-left: 20px;
+    top: 40px;
+    font-size: 15px;
+
+}
+
+.PhotoBox {
+    
+    position: relative;
+    background-image: url(Aset/FotoSMA.jpg);
+    background-position: center;
+    background-size: 700px;
+    bottom: 2650px;
+    left: 650px;
+    width: 460px;
+    height: 420px;
+    border: 5px solid #0F4C75;
+    box-shadow:  0 4px 8px 0  black;
+
+}
+
+/* Organizations */
+aside {
+
+    position : relative;
+    display : flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 3000px;
+    bottom: 2755px;
+    color: red;
+    float: left;
+    margin: 0 auto;
+
+}
+
+.Box {
+
+    background-color: #FBDD1C;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+
+}
+
+.Karta {
+
+    background-image: url(Aset/Karta.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: none;
+    flex-grow: 1;
+
+}
+
+.GRB {
+
+    background-image: url(Aset/GRBLogo.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: none;
+    flex-grow : 1;
+}
+
+.SRC {
+    
+
+}
