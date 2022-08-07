@@ -177,8 +177,8 @@ li {
     flex-direction: column;
 
     background-color: black;
-    width: 250px;
-    height: 1800px;
+    width: 200px;
+    height: 1550px;
     bottom: 2755px;
     float: left;
     margin: 0 auto;
@@ -214,6 +214,7 @@ li {
     background-size: 100% 100%;
     background-repeat: none;
     flex-grow : 1;
+    color: white;
 }
 
 .SRC {
@@ -248,12 +249,12 @@ li {
     position: relative;
     float: right;
     background-image: url(Aset/OrganizationsBG.webp);
-    background-size: 100% 100%;
+    background-size: 150% 100%;
     background-position: center;
     background-repeat: none;
-    opacity: 0.9;
-    height: 1800px;
-    width: 1269px;
+    opacity: 0.8;
+    height: 1550px;
+    width: 1319px;
     bottom: 2755px;
 }
 
