@@ -80,46 +80,6 @@ li {
     color: #BBE1FA;
 }
 
-@media only screen and (max-width : 600px) {
-
-    .BackgroundHeader {
-       background-position-x: center;
-       height: 800px;
-    }
-
-    .StripHeader {
-        bottom: 800px;
-    }
-    .HeaderPhoto {
-        width: 140px;
-        height: 140px;
-        left: 38%;
-        bottom: 1480px;
-    }
-
-    .TextHeader {
-        font-size: 13px;
-        line-height: 38px;
-        bottom: 1567px;
-        left: 31%;
-    }
-
-    #Navigasi {
-        max-width: 400px;
-        height: 50px;
-        bottom: 1370px;
-        word-spacing: 15px;
-        border-radius: 20px;
-    }
-
-    li {
-        font-size: 15px;
-        position: relative;
-        bottom: 14px;
-    }
-    
-
-}
 
 /*ABOUT ME*/
 
@@ -127,27 +87,21 @@ li {
 
     background-image: url(Aset/FotoSMA.jpg);
     position: relative;
+    max-width: 100%;
     bottom: 1255px;
-    height: 746px;
+    height: 700px;
     background-size: 120% 150%;
     background-position-y: -200px;
     background-position-x: -200px;
-    opacity: 0.9;
-    max-width: 1550px;
-    min-width: 500px;
-    background-attachment: scroll;
-    margin: auto;
 }
 
 .StripAboutMe {
 
     Background-color: #1B262C;
     position: relative;
-    bottom: 2005px;
-    height: 750px;
-    opacity: 0.7;
-    margin: auto;
-
+    bottom: 1955px;
+    height: 700px;
+    opacity: 0.5;
 }
 
 .AboutMeContainer {
@@ -209,7 +163,7 @@ li {
 
 }
 
-/* Organizations */
+/* Organizations 
 .FlexOrganizations {
 
     position : relative;
@@ -297,4 +251,85 @@ li {
     width: 1319px;
     bottom: 2755px;
 }
+*/
 
+@media only screen and (max-width : 600px) {
+
+    /*header*/
+    .BackgroundHeader {
+       background-position-x: center;
+       height: 800px;
+    }
+
+    .StripHeader {
+        bottom: 800px;
+    
+    }
+    .HeaderPhoto {
+        width: 140px;
+        height: 140px;
+        left: 38%;
+        bottom: 1480px;
+    }
+
+    .TextHeader {
+        font-size: 13px;
+        line-height: 38px;
+        bottom: 1567px;
+        left: 31%;
+    }
+
+    #Navigasi {
+        max-width: 400px;
+        height: 50px;
+        bottom: 1370px;
+        word-spacing: 15px;
+        border-radius: 20px;
+    }
+
+    li {
+        font-size: 15px;
+        position: relative;
+        bottom: 14px;
+    }
+    
+    /*About Me*/
+    .BackgroundAboutMe {
+        background-position-x: -350px;
+        background-position-y: top;
+        background-size: 230% 100%;
+    }
+
+    .AboutMeContainer {
+        bottom: 2700px;
+        left: 15%;
+        width: 270px;
+        height: 240px;
+        padding: 25px;
+    }
+
+    .AboutMeText {
+        font-size: 30px;
+        position: relative;
+        bottom: 18px;
+    }
+
+    .MyDesc {
+        margin-right: 20px;
+        text-align: justify;
+        position: relative;
+        bottom: 20px;
+        margin-bottom: -20px;
+    }
+
+    .PhotoBox {
+        left: 15%;
+        width: 310px;
+        height: 310px;
+        background-position-x: -250px;
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+
+
+}
