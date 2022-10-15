@@ -1,0 +1,32 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+@media screen and (max-width: 375px){
+
+    .ProductContainer{
+        width: 160px;
+        height: 350px;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 30px;
+        margin: 20px 2px 20px 2px;
+    }
+
+    .ProductImage{
+        background-image: url(./images/image-product-mobile.jpg);
+    }
+
+    .ProductDescription{
+        margin: 0;
+        position: relative;
+        height: 250px;
+        width: 200px;
+        background-color: white;
+        top: 150px;
+
+
+    }
+
+
+}
