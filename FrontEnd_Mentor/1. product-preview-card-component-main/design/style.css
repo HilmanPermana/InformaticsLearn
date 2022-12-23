@@ -13,10 +13,6 @@ body {
         margin: 20px 2px 20px 2px;
     }
 
-    .ProductImage{
-        background-image: url(./images/image-product-mobile.jpg);
-    }
-
     .ProductDescription{
         margin: 0;
         position: relative;
